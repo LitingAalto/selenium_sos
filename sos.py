@@ -21,7 +21,6 @@ import os
 st.set_page_config(layout="wide")
 st.markdown("<h1 style='text-align: center; color: black;'>Google Trends</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: darkgrey;'>Automates search and save the needed keywords for modelling</h2>", unsafe_allow_html=True)
-keyw = pd.read_excel('keywordlist.xlsx').drop('Unnamed: 0',1)
 
 start = st.date_input(
 "start date of comparison",
